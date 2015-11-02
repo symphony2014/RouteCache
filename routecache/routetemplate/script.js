@@ -6,6 +6,7 @@ angular.module('ngRouteExample', ['ngRoute'])
      $scope.$route = $route;
      $scope.$location = $location;
      $scope.$routeParams = $routeParams;
+     $scope.strs = [1,2,3,4,5];
  })
 
  .controller('BookController', function($scope, $routeParams) {
